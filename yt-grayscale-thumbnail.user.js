@@ -7,8 +7,6 @@
 // @match        https://*.youtube.com/*
 // ==/UserScript==
 
-console.log("hi")
-
 function addGlobalStyle(css) {
     var head, style;
     head = document.getElementsByTagName('head')[0];
